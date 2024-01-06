@@ -30,7 +30,7 @@ class MinhaAplicacaoFlask:
         db_data = self.ler_dados()
         usuario = next((usuario for usuario in db_data.get('usuarios', []) if usuario['id'] == user_id), None)
         if usuario:
-            return jsonify(usuario)
+            return render_template('usuarios.html', dados=[usuario], titulo='usuario')
         else:
             return jsonify({'mensagem': 'Usuário não encontrado'}), 404
 
