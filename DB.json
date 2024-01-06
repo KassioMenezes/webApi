@@ -1,0 +1,58 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Joao",
+      "email": "joao@email.com"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "email": "maria@email.com"
+    },
+    {
+      "id": 3,
+      "nome": "Otavio",
+      "email": "otavio@email.com"
+    },
+    {
+      "id": 4,
+      "nome": "Ronaldo",
+      "email": "ronaldo@email.com"
+    },
+    {
+      "id": 5,
+      "nome": "kassio",
+      "email": "kassio@email.com"
+    },
+    {
+      "nome": "Solange",
+      "email": "Solange@email.com",
+      "id": 6
+    },
+    {
+      "nome": "Carlos",
+      "email": "carlos@email.com",
+      "id": 7
+    },
+    {
+      "nome": "Henrique",
+      "email": "henrique@email.com",
+      "id": 8
+    }
+  ],
+  "passagens": [
+    {
+      "id": 1,
+      "origem": "Cidade A",
+      "destino": "Cidade B",
+      "preco": 100.0
+    },
+    {
+      "id": 2,
+      "origem": "Cidade C",
+      "destino": "Cidade D",
+      "preco": 150.0
+    }
+  ]
+}
